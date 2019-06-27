@@ -11,13 +11,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDialogModule} from '@angular/material/dialog';
 import { SearchDialogComponent } from './search-dialog-Ingridients/search-dialog.component';
 import {SearchDialogRecipesComponent} from './search-dialog-recipes/search-dialog-recipes.component';
+import { SearchResultsIngridientsComponent } from './search-results-ingridients/search-results-ingridients.component';
+import { SearchResultsRecipiesComponent } from './search-results-recipies/search-results-recipies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
     SearchDialogComponent,
-    SearchDialogRecipesComponent
+    SearchDialogRecipesComponent,
+    SearchResultsIngridientsComponent,
+    SearchResultsRecipiesComponent
   ],
   imports: [
     BrowserModule,
