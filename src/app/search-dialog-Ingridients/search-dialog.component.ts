@@ -7,6 +7,7 @@ import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
   styleUrls: ['./search-dialog.component.scss']
 })
 export class SearchDialogComponent {
+  ing: any;
 
   constructor(
     public dialogRef: MatDialogRef<SearchDialogComponent>,
